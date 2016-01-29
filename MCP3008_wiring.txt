@@ -1,0 +1,17 @@
+Circuit reference
+http://www.raspberrypi-spy.co.uk/2013/10/analogue-sensors-on-the-raspberry-pi-using-an-mcp3008/
+
+
+MCP30008    Raspberry Pi
+VDD         3.3V
+VREF        3.3V
+AGND        GND
+CLK         GPIO11 (P23)
+DOUT        GPIO09 (P21)
+DIN         GPIO10 (P19)
+CS          GPIO8  (P24)
+DGND        GND
+
+The Analogue inputs on the MCP3008 are then:
+CH0 - CH7
+Pints 1 - 8
